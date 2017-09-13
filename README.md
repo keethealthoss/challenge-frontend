@@ -1,5 +1,3 @@
-
-
 # Challenge-Frontend
 This is a technical challenge for frontend engineer candidates for KeetHealth. This challenge is designed to assess your skills as a frontend engineer.
 
@@ -10,8 +8,8 @@ Build a to-do app using [React](https://facebook.github.io/react/) and [Apollo](
 1. Fork this repo.
 2. Run ```npm install``` or ```yarn install```
 3. Run ```npm start``` or ```yarn start```
-4. You should see
-Build your webapp using the components available in the UI kit [react-md](https://react-md.mlaursen.com/). While you are free to build your own components, please utilize the kit wherever possible.
+4. You should see Compiled Successfully on terminal and the base app appear in your browser.
+5. Build your webapp using the components available in the UI kit [react-md](https://react-md.mlaursen.com/). While you are free to build your own components, please utilize the kit wherever possible.
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). If you run into any issues running the boilerplate, please refer to [the user guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
