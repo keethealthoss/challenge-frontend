@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shallow renders without crashing 1`] = `
+<ApolloProvider
+  client={
+    ApolloClient {
+      "addTypename": true,
+      "dataId": [Function],
+      "dataIdFromObject": [Function],
+      "disableNetworkFetches": false,
+      "fieldWithArgs": [Function],
+      "fragmentMatcher": HeuristicFragmentMatcher {},
+      "initialState": Object {},
+      "middleware": [Function],
+      "mutate": [Function],
+      "networkInterface": HTTPFetchNetworkInterface {
+        "_afterwares": Array [],
+        "_middlewares": Array [],
+        "_opts": Object {},
+        "_uri": "http://localhost:8080",
+      },
+      "query": [Function],
+      "queryDeduplication": true,
+      "reducerConfig": Object {
+        "addTypename": true,
+        "customResolvers": undefined,
+        "dataIdFromObject": [Function],
+        "fragmentMatcher": [Function],
+      },
+      "resetStore": [Function],
+      "setStore": [Function],
+      "ssrMode": false,
+      "version": "1.9.2",
+      "watchQuery": [Function],
+    }
+  }
+>
+  <div
+    className="App"
+  >
+    <div
+      className="App-header"
+    >
+      <img
+        alt="logo"
+        className="App-logo"
+        src="logo.svg"
+      />
+      <h2>
+        Welcome to React
+      </h2>
+    </div>
+    <p
+      className="App-intro"
+    >
+      To get started, edit 
+      <code>
+        src/App.js
+      </code>
+       and save to reload.
+    </p>
+  </div>
+</ApolloProvider>
+`;

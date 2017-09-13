@@ -5,8 +5,7 @@ import logo from './logo.svg';
 import './App.css';
 
 const networkInterface = createNetworkInterface({
-  uri: 'https://todo-mongo-graphql-server.herokuapp.com/graphql',
-  opts: { credentials: 'include' },
+  uri: 'http://localhost:8080',
 });
 
 const client = new ApolloClient({
