@@ -13,7 +13,7 @@ If you'd like, feel free to implement the other mutations:
 - clearCompleted
 - toggleAll
 
-Keep in mind that the API database is public and shared, thus you may see data changes caused by other users. As a result, it may be
+Keep in mind that the API database is public and shared, thus you may see data changes caused by other users. As a result, it may be wise to skip the clearCompleted and toggleAll mutations. Don't worry about it if you run into data synchronization issues as a result of other users' activity.
 
 ## Getting Started
 1. Fork this repo.
