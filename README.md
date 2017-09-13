@@ -1,17 +1,21 @@
 # Challenge-Frontend
 This is a technical challenge for frontend engineer candidates for KeetHealth. This challenge is designed to assess your skills as a frontend engineer.
 
-# The Challenge
-Build a to-do app using [React](https://facebook.github.io/react/) and [Apollo](http://dev.apollodata.com/react/) that consumes [this API](https://github.com/NoowPTdev/graphql-todo) using only the packages listed in the package.json file. The finished web app should implement the following queries/mutations:
+## The Challenge
+Build a to-do app using [React](https://facebook.github.io/react/) and [Apollo](http://dev.apollodata.com/react/) that consumes [this API](https://github.com/NoowPTdev/graphql-todo) using only the packages listed in the package.json file. The finished web app should implement at least the following queries/mutations:
 - todos
 - add
-- toggle
 - destroy
 - save
 
-Keep in mind that the API database is public and shared, thus you may see data changes caused by other users.
+If you'd like, feel free to implement the other mutations:
+- toggle
+- clearCompleted
+- toggleAll
 
-# Getting Started
+Keep in mind that the API database is public and shared, thus you may see data changes caused by other users. As a result, it may be
+
+## Getting Started
 1. Fork this repo.
 2. Run ```npm install``` or ```yarn install```
 3. Run ```npm start``` or ```yarn start```
@@ -21,7 +25,11 @@ Keep in mind that the API database is public and shared, thus you may see data c
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). If you run into any issues setting up this boilerplate, please refer to [the user guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md). If you are unable to find a solution, please contact Ardy from KeetHealth.
 
-# Grading
+## Testing
+- Run ```npm test``` to run the test suite. You could also run ```yarn test``` but I have seen issues in the past with it so I recommend using ```npm test```.
+- Run ```npm test -- --coverage``` to see your test coverage.
+
+## Grading
 You will be graded on several aspects of your finished code, such as but not limited to
 - Utilization of ES6 & ES7 features
 - Code Readability
